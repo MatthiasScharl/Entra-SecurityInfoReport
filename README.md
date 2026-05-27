@@ -1,4 +1,4 @@
-# Security Info Report
+# Entra Security Info Report
 
 > PowerShell script that queries Microsoft Graph for every user's registered authentication methods and generates a self-contained, filterable HTML report — including Security Info registration status, SSPR capability, and per-method detail.
 
