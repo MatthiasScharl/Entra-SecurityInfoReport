@@ -1,0 +1,361 @@
+{
+  "Users": [
+    {
+      "HasFido2": true,
+      "UserPrincipalName": "anna.schmidt@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u1",
+      "HasTap": false,
+      "MethodCount": 3,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: iPhone 15 Pro | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "success",
+          "Detail": "YubiKey 5C NFC | YubiKey",
+          "Label": "FIDO2",
+          "Type": "Fido2"
+        },
+        {
+          "Color": "info",
+          "Detail": "Mobile: +49 151 12345678 | SMS: enabled",
+          "Label": "Phone",
+          "Type": "Phone"
+        }
+      ],
+      "SsprCount": 2,
+      "HasSoftwareOath": false,
+      "HasPhone": true,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Anna Schmidt",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "ben.mueller@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u2",
+      "HasTap": false,
+      "MethodCount": 3,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: Samsung Galaxy S24 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "info",
+          "Detail": "Mobile: +49 171 98765432 | SMS: enabled",
+          "Label": "Phone",
+          "Type": "Phone"
+        },
+        {
+          "Color": "warning",
+          "Detail": "ben.mueller@gmail.com",
+          "Label": "Email OTP",
+          "Type": "Email"
+        }
+      ],
+      "SsprCount": 3,
+      "HasSoftwareOath": false,
+      "HasPhone": true,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Ben Müller",
+      "AccountEnabled": true,
+      "HasEmail": true
+    },
+    {
+      "HasFido2": true,
+      "UserPrincipalName": "clara.weber@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u3",
+      "HasTap": false,
+      "MethodCount": 1,
+      "Methods": [
+        {
+          "Color": "success",
+          "Detail": "Passkey (iCloud) | Apple",
+          "Label": "FIDO2",
+          "Type": "Fido2"
+        }
+      ],
+      "SsprCount": 0,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": false,
+      "HasMFA": true,
+      "DisplayName": "Clara Weber",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "david.fischer@contoso.com",
+      "HasWHFB": true,
+      "UserId": "u4",
+      "HasTap": false,
+      "MethodCount": 3,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: Surface Pro 10 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "dark",
+          "Detail": "Device: Surface Pro 10",
+          "Label": "Windows Hello",
+          "Type": "WHFB"
+        },
+        {
+          "Color": "warning",
+          "Detail": "Software OATH/TOTP (specific app not identifiable via API)",
+          "Label": "TOTP",
+          "Type": "SoftwareOath"
+        }
+      ],
+      "SsprCount": 1,
+      "HasSoftwareOath": true,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "David Fischer",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "eva.hartmann@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u5",
+      "HasTap": false,
+      "MethodCount": 1,
+      "Methods": [
+        {
+          "Color": "info",
+          "Detail": "Mobile: +49 151 55544433 | SMS: enabled",
+          "Label": "Phone",
+          "Type": "Phone"
+        }
+      ],
+      "SsprCount": 1,
+      "HasSoftwareOath": false,
+      "HasPhone": true,
+      "UserType": "Member",
+      "HasAuthenticator": false,
+      "HasMFA": true,
+      "DisplayName": "Eva Hartmann",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": true,
+      "UserPrincipalName": "felix.becker@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u6",
+      "HasTap": false,
+      "MethodCount": 2,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: OnePlus 12 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "success",
+          "Detail": "YubiKey 5 NFC | YubiKey",
+          "Label": "FIDO2",
+          "Type": "Fido2"
+        }
+      ],
+      "SsprCount": 1,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Felix Becker",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "gabriela.rossi_partner.com#EXT#@contoso.onmicrosoft.com",
+      "HasWHFB": false,
+      "UserId": "u7",
+      "HasTap": false,
+      "MethodCount": 2,
+      "Methods": [
+        {
+          "Color": "warning",
+          "Detail": "g.rossi@partner.com",
+          "Label": "Email OTP",
+          "Type": "Email"
+        },
+        {
+          "Color": "warning",
+          "Detail": "Software OATH/TOTP (specific app not identifiable via API)",
+          "Label": "TOTP",
+          "Type": "SoftwareOath"
+        }
+      ],
+      "SsprCount": 2,
+      "HasSoftwareOath": true,
+      "HasPhone": false,
+      "UserType": "Guest",
+      "HasAuthenticator": false,
+      "HasMFA": true,
+      "DisplayName": "Gabriela Rossi",
+      "AccountEnabled": true,
+      "HasEmail": true
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "hans.keller@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u8",
+      "HasTap": true,
+      "MethodCount": 3,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: iPhone 13 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "info",
+          "Detail": "Mobile: +49 160 11223344 | SMS: enabled",
+          "Label": "Phone",
+          "Type": "Phone"
+        },
+        {
+          "Color": "secondary",
+          "Detail": "Status: Not Usable | Lifetime: 60min",
+          "Label": "TAP",
+          "Type": "TAP"
+        }
+      ],
+      "SsprCount": 2,
+      "HasSoftwareOath": false,
+      "HasPhone": true,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Hans Keller",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "ingrid.novak_extern.de#EXT#@contoso.onmicrosoft.com",
+      "HasWHFB": true,
+      "UserId": "u9",
+      "HasTap": false,
+      "MethodCount": 2,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: Pixel 8 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        },
+        {
+          "Color": "dark",
+          "Detail": "Device: ThinkPad X1 Carbon",
+          "Label": "Windows Hello",
+          "Type": "WHFB"
+        }
+      ],
+      "SsprCount": 1,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Guest",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Ingrid Novak",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "jan.zimmermann@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u10",
+      "HasTap": false,
+      "MethodCount": 1,
+      "Methods": [
+        {
+          "Color": "primary",
+          "Detail": "Device: iPhone 12 | Mode: push",
+          "Label": "Authenticator",
+          "Type": "Authenticator"
+        }
+      ],
+      "SsprCount": 1,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": true,
+      "HasMFA": true,
+      "DisplayName": "Jan Zimmermann",
+      "AccountEnabled": false,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "katja.wolf@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u11",
+      "HasTap": false,
+      "MethodCount": 0,
+      "Methods": [],
+      "SsprCount": 0,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": false,
+      "HasMFA": false,
+      "DisplayName": "Katja Wolf",
+      "AccountEnabled": true,
+      "HasEmail": false
+    },
+    {
+      "HasFido2": false,
+      "UserPrincipalName": "lukas.meier@contoso.com",
+      "HasWHFB": false,
+      "UserId": "u12",
+      "HasTap": false,
+      "MethodCount": 0,
+      "Methods": [],
+      "SsprCount": 0,
+      "HasSoftwareOath": false,
+      "HasPhone": false,
+      "UserType": "Member",
+      "HasAuthenticator": false,
+      "HasMFA": false,
+      "DisplayName": "Lukas Meier",
+      "AccountEnabled": true,
+      "HasEmail": false
+    }
+  ],
+  "CollectedAt": "2026-04-27T19:55:00.000Z",
+  "ExcludeGuestUsers": false,
+  "TenantId": "aaaabbbb-cccc-dddd-eeee-ffffffffffff",
+  "CollectedBy": "admin@contoso.onmicrosoft.com",
+  "ExcludeDisabledAccounts": false
+}
